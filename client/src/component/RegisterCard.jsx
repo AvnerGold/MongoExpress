@@ -15,7 +15,7 @@ export default function RegisterCard() {
     console.log(name);
 
     try {
-        let res =  await fetch('https://localhost5500/api/users/register', {
+        let res =  await fetch('/api/users/register', {
             method: 'POST',
             headers: {
               Accept: 'application/json',
