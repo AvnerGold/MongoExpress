@@ -3,7 +3,7 @@ const express = require('express');
 const bycrypt = require('bcrypt');
 const path =require('path');
 const cors = require('cors');
-const PORT = 5500;
+const PORT = process.env.PORT || 5500;
 
 let server = express();
 server.use(express.json());
