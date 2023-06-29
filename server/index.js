@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const bycrypt = require('bcrypt');
-const path =require('node:path');
+const path =require('path');
 const cors = require('cors');
 const PORT = 5500;
 
