@@ -14,7 +14,7 @@ export default function LoginCard() {
         setPassword(password);
         let user = { name, password };
       
-        try {
+        try {//try
           let res = await fetch('http://localhost:5500/api/users/login', {
             method: 'POST',
             headers: {
